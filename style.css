@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
-
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
@@ -8,25 +7,28 @@ body {
 
 /* navigation */
 
-.navbar{
+.navbar {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
   background: rgba(0, 0, 0, 0);
 }
+
 .navbar-brand image {
   height: 2rem;
 }
-.navbar-nav li{
+
+.navbar-nav li {
   padding-right: .7rem;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-top: .8rem;
 }
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
   color: #ff6347
 }
 
@@ -35,6 +37,11 @@ body {
 .home-inner {
   background-image: url(img/neondesk.png)
 }
+
+#skills {
+  background-color: transparent;
+}
+
 .caption {
   width: 100%;
   max-width: 100%;
@@ -44,6 +51,7 @@ body {
   color: white;
   text-transform: uppercase;
 }
+
 .caption h1 {
   font-size: 3.8rem;
   font-weight: 700;
@@ -51,11 +59,13 @@ body {
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1.6rem;
 }
+
 .caption h3 {
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1rem;
 }
+
 .btn-lg {
   border-width: medium;
   border-radius: 0;
@@ -63,11 +73,38 @@ body {
   font-size: 1.1rem;
 }
 
+/* Skills section */
 
-/*============= COURSE SECTION =============*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
 
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+.heading-underline {
+  width: 4rem;
+  height: .2rem;
+  background-color: #ff6347;
+  margin: 0 auto 2rem;
+}
 
+/* about */
+
+.about img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote .fas {
+  color: #ff6347;
+  padding: 1rem;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
