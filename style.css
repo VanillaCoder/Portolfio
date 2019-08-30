@@ -106,6 +106,28 @@ blockquote .fas {
   padding: 1rem;
 }
 
+/* projects */
+
+.project img {
+  transition: transform .2s;
+  width: 90%;
+}
+.project h3{
+  padding-top: 2rem;
+}
+.dark {
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed {
+  background-image: url(img/neondesk.png)
+}
+
+.project img:hover {
+  transform: scale(1.2);
+}
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
