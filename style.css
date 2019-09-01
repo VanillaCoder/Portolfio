@@ -128,6 +128,21 @@ blockquote .fas {
   transform: scale(1.2);
 }
 
+.project a button{
+  border-color: #ff6347;
+  border-width: small;
+  border-radius: 0;
+  padding: .5rem 1rem;
+  font-size: 1.1rem;
+}
+
+.project a button{
+  margin: .25rem;
+  color: #ff6347;
+  font-weight: 700;
+
+}
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
