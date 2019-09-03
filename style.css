@@ -5,6 +5,12 @@ body {
   color: #505962;
 }
 
+
+.offset{
+  padding-top: 3rem;
+  margin-top: -3rem;
+}
+
 /* navigation */
 
 .navbar {
