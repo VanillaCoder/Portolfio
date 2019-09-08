@@ -112,6 +112,10 @@ blockquote .fas {
   padding: 1rem;
 }
 
+#about a {
+  color: #ff6347;
+}
+
 /* projects */
 
 .project img {
@@ -146,6 +150,12 @@ blockquote .fas {
   margin: .25rem;
   color: #ff6347;
   font-weight: 700;
+
+}
+
+
+footer a{
+  color: #ff6347;
 
 }
 
