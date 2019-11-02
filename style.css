@@ -118,9 +118,14 @@ blockquote .fas {
 
 /* projects */
 
+.projectImg{
+  margin-top: 2rem;
+}
+
 .project img {
   transition: transform .2s;
   width: 90%;
+  /* padding: 2rem; */
 }
 .project h3{
   padding-top: 2rem;
@@ -128,7 +133,7 @@ blockquote .fas {
 .dark {
   background-color: rgba(0,0,0,0.6);
   color: white;
-  padding: 7rem 2rem;
+  padding: 2rem 2rem;
 }
 .fixed {
   background-image: url(img/neondesk.png)
